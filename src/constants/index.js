@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: project3,
     description: "A clean and modern portfolio website showcasing my work.",
     technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
-    liveLink: "https://chitrakshsuri.dev", // ✅ Add project link
+    liveLink: "https://chitraksh-suri-portfolio.vercel.app/", // ✅ Add project link
   },
   {
     title: "Customer Management System",
