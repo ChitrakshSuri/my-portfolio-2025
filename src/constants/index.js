@@ -48,6 +48,42 @@ export const PROJECTS = [
   },
 ];
 
+import user1 from "../assets/testimonials/user1.webp";
+import user2 from "../assets/testimonials/user2.webp";
+import user3 from "../assets/testimonials/user3.webp";
+import user4 from "../assets/testimonials/user4.webp";
+
+export const TESTIMONIALS = [
+  {
+    name: "Aman Gupta",
+    title: "Senior Frontend Engineer at Google",
+    image: user1,
+    quote:
+      "Chitraksh has an incredible eye for design and functionality. His expertise in React.js and Tailwind CSS is evident in the seamless, high-performance applications he builds.",
+  },
+  {
+    name: "Priya Sharma",
+    title: "Software Developer at Microsoft",
+    image: user2,
+    quote:
+      "Working with Chitraksh on a real-time chat application was an absolute pleasure. His problem-solving skills and deep understanding of Firebase made development smooth and efficient.",
+  },
+  {
+    name: "Rahul Verma",
+    title: "CTO at Your Exam Saathi",
+    image: user3,
+    quote:
+      "Chitraksh played a crucial role in optimizing our platform's performance. His ability to integrate REST APIs and implement caching solutions greatly improved our system's efficiency.",
+  },
+  {
+    name: "Sneha Kapoor",
+    title: "Full Stack Developer at Amazon",
+    image: user4,
+    quote:
+      "Chitraksh’s passion for front-end development is inspiring. His expertise in Framer Motion and state management allows him to create visually appealing, user-friendly interfaces.",
+  },
+];
+
 export const CONTACT = {
   address: "Noida, India",
   phoneNo: "+91 6230020604",
