@@ -40,32 +40,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real-Time Chat Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A real-time messaging platform built with React.js and Firebase, enabling instant communication with features like secure authentication and media sharing.",
+    technologies: ["React.js", "Firebase", "Firestore"],
   },
   {
-    title: "Task Management App",
+    title: "Realtime Device Tracker",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A real-time tracking application using WebSockets to dynamically update device locations on an interactive map, ensuring high accuracy and performance.",
+    technologies: ["Node.js", "Socket.io", "Leaflet.js", "JavaScript"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, skills, and achievements, designed with a clean UI and smooth animations for a modern look.",
+    technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Customer Management System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A customer management system developed in React.js, allowing CRUD operations, search functionality, and navigation for efficient data management.",
+    technologies: ["React.js", "Local Storage", "State Management"],
   },
 ];
 
