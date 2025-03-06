@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/ChitrakshSuriProfile.webp";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -62,15 +62,33 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              variants={childVariants}
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
-            >
-              Download Resume
-            </motion.a>
+  variants={childVariants}
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  download
+  className="relative group flex items-center justify-center gap-2 px-6 py-3 font-semibold text-white bg-[#333] rounded-full shadow-lg hover:bg-[#444] transition duration-300"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <svg
+    className="w-5 h-5 group-hover:animate-bounce"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M12 4v12m0 0l4-4m-4 4l-4-4M8 16h8"
+    ></path>
+  </svg>
+  Download Resume
+</motion.a>
+
+
           </motion.div>
         </div>
       </div>

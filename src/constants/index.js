@@ -21,30 +21,30 @@ export const PROJECTS = [
   {
     title: "Real-Time Chat Application",
     image: project1,
-    description:
-      "A real-time messaging platform built with React.js and Firebase, enabling instant communication with features like secure authentication and media sharing.",
+    description: "A real-time messaging platform with secure authentication.",
     technologies: ["React.js", "Firebase", "Firestore"],
+    liveLink: "https://your-chat-app-link.com", // ✅ Add project link
   },
   {
     title: "Realtime Device Tracker",
     image: project2,
-    description:
-      "A real-time tracking application using WebSockets to dynamically update device locations on an interactive map, ensuring high accuracy and performance.",
+    description: "Track devices in real-time with WebSockets and Leaflet.js.",
     technologies: ["Node.js", "Socket.io", "Leaflet.js", "JavaScript"],
+    liveLink: "https://your-tracker-link.com", // ✅ Add project link
   },
   {
     title: "Portfolio Website",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and achievements, designed with a clean UI and smooth animations for a modern look.",
+    description: "A clean and modern portfolio website showcasing my work.",
     technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
+    liveLink: "https://chitrakshsuri.dev", // ✅ Add project link
   },
   {
     title: "Customer Management System",
     image: project4,
-    description:
-      "A customer management system developed in React.js, allowing CRUD operations, search functionality, and navigation for efficient data management.",
+    description: "A system to manage customers with search and CRUD features.",
     technologies: ["React.js", "Local Storage", "State Management"],
+    liveLink: "https://your-cms-link.com", // ✅ Add project link
   },
 ];
 
@@ -55,8 +55,8 @@ import user4 from "../assets/testimonials/user4.webp";
 
 export const TESTIMONIALS = [
   {
-    name: "Aman Gupta",
-    title: "Senior Frontend Engineer at Google",
+    name: "Saurabh Kumar",
+    title: "Senior Backend Engineer at American Express",
     image: user1,
     quote:
       "Chitraksh has an incredible eye for design and functionality. His expertise in React.js and Tailwind CSS is evident in the seamless, high-performance applications he builds.",
@@ -69,7 +69,7 @@ export const TESTIMONIALS = [
       "Working with Chitraksh on a real-time chat application was an absolute pleasure. His problem-solving skills and deep understanding of Firebase made development smooth and efficient.",
   },
   {
-    name: "Rahul Verma",
+    name: "Sachin Sharma",
     title: "CTO at Your Exam Saathi",
     image: user3,
     quote:
