@@ -23,28 +23,28 @@ export const PROJECTS = [
     image: project1,
     description: "A real-time messaging platform with secure authentication.",
     technologies: ["React.js", "Firebase", "Firestore"],
-    liveLink: "https://your-chat-app-link.com", // ✅ Add project link
+    liveLink: "https://your-chat-app-link.com", 
   },
   {
     title: "Realtime Device Tracker",
     image: project2,
     description: "Track devices in real-time with WebSockets and Leaflet.js.",
     technologies: ["Node.js", "Socket.io", "Leaflet.js", "JavaScript"],
-    liveLink: "https://your-tracker-link.com", // ✅ Add project link
+    liveLink: "https://your-tracker-link.com", 
   },
   {
     title: "Portfolio Website",
     image: project3,
     description: "A clean and modern portfolio website showcasing my work.",
     technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
-    liveLink: "https://chitraksh-suri-portfolio.vercel.app/", // ✅ Add project link
+    liveLink: "https://chitraksh-suri-portfolio.vercel.app/", 
   },
   {
     title: "Customer Management System",
     image: project4,
     description: "A system to manage customers with search and CRUD features.",
     technologies: ["React.js", "Local Storage", "State Management"],
-    liveLink: "https://your-cms-link.com", // ✅ Add project link
+    liveLink: "https://your-cms-link.com", 
   },
 ];
 

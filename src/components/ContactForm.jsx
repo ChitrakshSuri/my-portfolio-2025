@@ -54,7 +54,7 @@ const ContactForm = () => {
     setIsSending(true);
 
     emailjs
-      .sendForm("service_fk21efm", "template_6elkfo8", formRef.current, "7R3Qp7A_FYUBr0JST")
+      .sendForm("service_fk21efm", "template_h8asf5m", formRef.current, "7R3Qp7A_FYUBr0JST")
       .then((response) => {
         console.log("SUCCESS", response.status, response.text);
         toast.success("Message sent Successfully ✅");
