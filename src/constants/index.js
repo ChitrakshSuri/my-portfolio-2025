@@ -3,16 +3,32 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a frontend developer skilled in React.js, Firebase Firestore, and REST APIs, with experience in state management, API integration, and UI/UX optimization. I build scalable, high-performance applications using Tailwind CSS, Framer Motion, and modern frameworks. Having developed real-time apps like chat platforms and device trackers, I excel at user-centric experiences. With 350+ DSA problems solved, I write efficient, optimized code and love to learn and innovate.`;
+export const HERO_CONTENT = `I'm an AI-first developer building smart automation systems, voice/chat agents, and powerful LLM workflows. I work across the stack with React.js, FastAPI, LangChain, Python, n8n, Supabase, and Gemini to craft seamless, real-time, human-like experiences. Whether it's RAG pipelines, voice bots, or automation tools — I bring ideas to life with speed and precision.`;
 
-export const ABOUT_TEXT = `I am a frontend developer skilled in React.js, Firebase Firestore, and REST APIs. With 350+ DSA problems solved, I excel in problem-solving and building scalable web applications. Experienced in Tailwind CSS and Framer Motion, I create seamless UI/UX. Passionate about learning and contributing to open-source, I aim to develop high-performance, user-centric applications.`;
+export const ABOUT_TEXT = `Currently working as an AI Agent Intern at Dreamable, I specialize in building AI-powered workflows, real-time automation systems, and scalable frontend interfaces. With 350+ DSA problems solved, I bring strong problem-solving skills into building practical tools using React, n8n, Firebase, Supabase, LangChain, and Gemini AI.`;
 
 export const EXPERIENCES = [
   {
-    year: "Sept 2024 - Present",
+    year: "June 2025 - Present",
+    role: "AI Agent Intern",
+    company: "Dreamable Inc. (Remote - San Francisco)",
+    description: `Designed and deployed intelligent automation workflows using n8n, integrating Gmail, Airtable, Notion, and REST APIs. Built AI tools like LinkedIn poster, WhatsApp summarizer, RAG chatbot, and multiple voice AI agents using Tavus, LiveKit, Retell AI, and Vapi-style tools. Also developed a voice model testing platform with ElevenLabs, Rime, and Whisper for real-time interaction.`,
+    technologies: [
+      "LangChain",
+      "OpenAI",
+      "Supabase",
+      "n8n",
+      "FastAPI",
+      "Python",
+      "LiveKit",
+      "Gemini AI",
+    ],
+  },
+  {
+    year: "Sept 2024 - March 2025",
     role: "Frontend Developer Intern",
-    company: "Your Exam Saathi (Remote)",
-    description: `Developed 6+ pixel-perfect web pages with a 100% design match and cross-browser compatibility. Integrated RESTful APIs for efficient data retrieval, improving load speed by 30%. Optimized API performance with React Query, reducing redundant calls via caching and state management. Enhanced UI/UX and page load speed by leveraging modern frameworks, reducing load times by 25%.`,
+    company: "Your Exam Saathi (Remote - Gurgaon)",
+    description: `Developed 6+ pixel-perfect web pages with cross-browser compatibility and REST API integration. Improved performance by 30% using React Query and enhanced UI/UX using modern frameworks.`,
     technologies: ["React.js", "REST APIs", "CSS", "React Query"],
   },
 ];
@@ -23,28 +39,28 @@ export const PROJECTS = [
     image: project1,
     description: "A real-time messaging platform with secure authentication.",
     technologies: ["React.js", "Firebase", "Firestore"],
-    liveLink: "https://your-chat-app-link.com", 
+    liveLink: "https://your-chat-app-link.com",
   },
   {
     title: "Realtime Device Tracker",
     image: project2,
     description: "Track devices in real-time with WebSockets and Leaflet.js.",
     technologies: ["Node.js", "Socket.io", "Leaflet.js", "JavaScript"],
-    liveLink: "https://your-tracker-link.com", 
+    liveLink: "https://your-tracker-link.com",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description: "A clean and modern portfolio website showcasing my work.",
     technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
-    liveLink: "https://chitraksh-suri-portfolio.vercel.app/", 
+    liveLink: "https://chitraksh-suri-portfolio.vercel.app/",
   },
   {
     title: "Customer Management System",
     image: project4,
     description: "A system to manage customers with search and CRUD features.",
     technologies: ["React.js", "Local Storage", "State Management"],
-    liveLink: "https://your-cms-link.com", 
+    liveLink: "https://your-cms-link.com",
   },
 ];
 
